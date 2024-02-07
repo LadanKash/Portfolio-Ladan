@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4b63fc8b98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div id="hero-background">
+                <!-- Video Background -->
+                <div class="profile-image-container">
+                    <img src="Images/picture.jpg" alt="Profile">
+                </div>
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Ladan</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                   
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;">As a passionate and experienced web designer and developer with a strong background in UX/UI, I bring
+                       creativity and technical proficiency to every project I undertake. My commitment is to deliver not just
+                       visually stunning websites but also ensure seamless user experiences.I believe in the power of aesthetics.
+                       Each design is a blend of innovation and functionality, creating visually appealing interfaces that leave
+                       a lasting impression. My development skills complement my design finesse. Proficient in HTML, CSS, JavaScript, 
+                       and more, I bring concepts to life with clean, efficient, and responsive code.Understanding 
+                       the user is at the core of my design philosophy. I focus on creating interfaces that are intuitive, 
+                       user-friendly, and elevate the overall digital experience.My goal is to exceed expectations, delivering 
+                       solutions that drive tangible results for clients.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience_tab')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- -----skills------- -->
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web design and Frontend</span><br>Designing web/App interfaces</li>
+                            <li><span>UX/ UI Designer</span><br>Web/app Design</li>
+                            <li><span>WordPress</span><br></li>      
+                        </ul>
+                    </div>
+                    <!-- -----------experience--------- -->
+                        <div class="tab-contents" id="experience_tab">
+                            <div class="experience">
+                                <div class="column">
+                                  <p class="label">Role:</p>
+                                  <br>
+                                  <p class="content"><b>UX/UI Desginer</b></p>
+                                </div>
+                                <div class="column">
+                                  <p class="label">Responsibilities:</p>
+                                  <br>
+                                  <p class="content">Collaborated with a multidisciplinary team comprising designers, developers, and
+                                    product managers to conceptualize and deliver the Co-Parents application.</p><br>
+                                                    <p>• Conduct user research and competitor analysis to inform design decisions.<br>
+                                                       • Develop user stories, personas, and storyboards based on research and data.<br>
+                                                       • Create Wireframes, prototypes, and mock-ups that align with user-centered design.<br>
+                                                       • Regularly communicated design concepts and updates to stakeholders, incorporating
+                                                        feedback to refine and enhance the final product.
+                                                        </p>  
+                                </div>
+                                <div class="column">
+                                  <p class="label">Date:</p>
+                                  <br>
+                                  <p class="content">January 2023- Present</p>
+                                </div>
+                              </div>
+        </div>
+                      
+                      
+                    <!-- -------------education----------- -->
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Web design and development</span><br>CDI College</li>
+                            <li> 2022 - 2024</li>
+                            <li><span>UX/UI Design</span><br>UX-Land School</li>
+                            <li>2021 - 2022</li>
+                            <li><span>Bachelors's of Art</span><br>Azad University</li>
+                            <li>2003 - 2007</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Projects-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Web Design and Development Projects</h1><br>
+            <div class="services-list">
+                <div>
+                    <h2>Fauget Sushi Restaurant</h2>
+                    <p>Designed and developed a website using HTML, CSS, JavaScript, jQuery, Animation, Masonry, XML, Json, API, PHP</p>
+                    <a href="https://ladankash.github.io/Sushi-Restaurant/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Aritzia</h2>
+                    <p>Designed and developed a home page using  HTML, CSS, Java Script </p> 
+                    <a href="https://ladankash.github.io/Aritzia/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Aldo</h2>
+                    <p>Designed and developed a home page using  HTML, CSS, Java Script</p>
+                    <a href="https://ladankash.github.io/Aldo/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Keeper App</h2>
+                    <p>Interactive game Experience with HTML, CSS, and JavaScript, React </p>
+                    <a href="https://ladankash.github.io/keeper-app/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"></h1>
+            <div class="services-list">
+                <div>
+                    <h2>Brush </h2>
+                    <p>Designed and developed a home page using  Sketch, Wireframe, Prototype, HTML, CSS, Java Script, Carousel Slick, Animation, Fancy box, Panzoom</p>
+                    <a href="https://ladankash.github.io/Brush/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Beauty Skin care </h2>
+                    <p>Designed and developed a home page using HTML, CSS, Java Script, Flex</p>
+                    <a href="https://ladankash.github.io/skincare/">Learn more</a>
+                </div>
+                <div>
+                    <h2>Movie-app </h2>
+                    <p>Interactive Web Experience with HTML, CSS, and JavaScript</p>
+                    <a href="https://ladankash.github.io/Movie-app/">Learn more</a>
+                </div>
+                <div>
+                    <h2>EmojiPedia-React</h2>
+                    <p>Developed a game using HTML, CSS, Java Script, React</p>
+                    <a href="https://ladankash.github.io/EmojiPedia-React/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">UX/UI Projects</h1><br>
+            <div class="services-list">
+                <div>
+                    <h2>Time tracking APP </h2>
+                    <p>Designed a user experience (UX) and user interface (UI) for an application "time tracking app" using Figma, a collaborative design tool. </p>
+                    <a href="https://uxfol.io/p/017812d9/026e27c3">Learn more</a>
+                </div>
+                <div>
+                    <h2>Herbal Tea </h2>
+                    <p>Designed a user experience (UX) and user interface (UI) for an adaptive 
+                        sustainable website "Herbal Tea" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/017812d9/03adbbee">Learn more</a>
+                </div>
+                <div>
+                 
+                    <h2>Kids Talk</h2>
+                    <p>Designed a user interface (UI) and user experience (UX) an application for kids "Kids Talk" using Figma, a collaborative design tool.</p>
+                    <a href="https://uxfol.io/p/017812d9/03aa5bdf">Learn more</a>
+                </div>
+                <div>
+                    <h2>Lavender </h2>
+                    <p>Designed a user interface (UI) and user experience (UX) for an adaptive 
+                        sustainable website "Lavender" using Figma, a collaborative design tool.
+                    <a href="https://uxfol.io/p/017812d9/03adbb8d">Learn more</a>
+                </div>
+              
+                <div>
+                 
+                    <h2>Toy Share</h2>
+                    <p>Designed a user experience (UX) and user interface (UI) for an application "Toy Share APP" using Figma, a collaborative design tool. </p>
+                    <a href="https://uxfol.io/p/017812d9/0357e0af">Learn more</a>
+                </div>
+                <div>
+                 
+                    <h2>MTL Cupcake</h2>
+                    <p>Designed a user experience (UX) and user interface (UI) for an e-commerce website & Mobile for an "online cupcake" store using Adobe XD, a collaborative design tool. </p>
+                    <a href="https://uxfol.io/p/017812d9/034b1973">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ladan.kashany@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +1 (514)-(677)-(5254)</p>
+                    <div class="social-icons">
+                    <a href="http://www.linkedin.com/in/ladan-kash"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Webdesign&development-Resume.pdf" download="" class="btn btn2">Dowmload Resume</a>
+                </div>
+
+                <div class="contact-right">
+
+                    <div class="container">
+                        <form id="contactForm" class="contact-form" action="contact.php" method="post">
+                            <label for="name" class="form-label">Your Name:</label><br>
+                            <input type="text" id="name" name="name" required class="form-input"><br><br>
+                
+                            <label for="email" class="form-label">Your Email:</label><br>
+                            <input type="email" id="email" name="email" required class="form-input"><br><br>
+                
+                            <label for="message" class="form-label">Message:</label><br>
+                            <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea><br><br>
+                
+                            <button type="button" onclick="submitForm()" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+
+        <div class="copyright">
+            <p>Developed by Ladan Kash <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+    
+            // Create a message string
+            var messageString = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
+    
+            // Write the message to a file
+            var blob = new Blob([messageString], { type: 'text/plain' });
+            var link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = 'message.txt';
+            link.click();
+        }
+    </script> 
+<script src="script.js"></script>
+
+</body>
+</html>
